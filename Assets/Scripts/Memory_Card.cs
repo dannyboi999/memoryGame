@@ -33,20 +33,3 @@ public class Memory_Card : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = image;
     }
 }
-
-/*[SerializeField] private GameObject cardBack;
-    [SerializeField] private Sprite image;
-
-    private void Start()
-    {
-        GetComponent<SpriteRenderer>().sprite = image;
-    }
-
-    public void OnMouseDown()
-    {
-        if (cardBack.activeSelf)
-        {
-            cardBack.SetActive(false);
-        }
-    }
-*/
